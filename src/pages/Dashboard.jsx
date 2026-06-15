@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import api from "../api/axios";
-import CreateLinkForm from "../components/CreateLinkForm";
-import LinkCard from "../components/LinkCard";
-import { useAuth } from "../context/AuthContext";
+import api from "../api/axios.js";
+import CreateLinkForm from "../components/CreateLinkForm.jsx";
+import LinkCard from "../components/LinkCard.jsx";
+import { useAuth } from "../context/AuthContext.jsx";
 import { Clock, Link2, MousePointerClick, TrendingUp } from "lucide-react";
 
 export default function Dashboard() {

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Copy, Trash2, ExternalLink, BarChart2, Power, QrCode } from "lucide-react";
 import toast from "react-hot-toast";
-import QRCodeModal from "./Dashboard/QRCodeModal";
+import QRCodeModal from "./Dashboard/QRCodeModal.jsx";
 
 export default function LinkCard({ link, onDelete, onToggle }) {
   const [showQR, setShowQR] = useState(false);

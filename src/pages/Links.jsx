@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import api from "../api/axios";
-import LinkCard from "../components/LinkCard";
+import api from "../api/axios.js";
+import LinkCard from "../components/LinkCard.jsx";
 import toast from "react-hot-toast";
 
 export default function Links() {

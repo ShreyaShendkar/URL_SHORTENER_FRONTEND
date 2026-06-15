@@ -1,6 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { LayoutDashboard, Link2, User, LogOut, Zap } from "lucide-react";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../context/AuthContext.jsx";
 
 const links = [
   { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard },

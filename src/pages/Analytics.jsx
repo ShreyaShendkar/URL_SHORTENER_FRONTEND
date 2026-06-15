@@ -14,9 +14,9 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import api from "../api/axios";
+import api from "../api/axios.js";
 import { ArrowLeft, Calendar, Clock, ExternalLink, MousePointerClick, QrCode } from "lucide-react";
-import QRCodeModal from "../components/Dashboard/QRCodeModal";
+import QRCodeModal from "../components/Dashboard/QRCodeModal.jsx";
 
 const COLORS = ["#2563eb", "#10b981", "#f59e0b", "#ef4444", "#7c3aed", "#0891b2"];
 

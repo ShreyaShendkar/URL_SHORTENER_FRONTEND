@@ -1,5 +1,5 @@
 import { useState } from "react";
-import api from "../api/axios";
+import api from "../api/axios.js";
 import toast from "react-hot-toast";
 import { Calendar, Link2, Plus, Sparkles } from "lucide-react";
 

@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import { AuthProvider } from "./context/AuthContext";
-import ProtectedRoute from "./components/ProtectedRoute";
-import AppLayout from "./components/layout/AppLayout";
+import { AuthProvider } from "./context/AuthContext.jsx";
+import ProtectedRoute from "./components/ProtectedRoute.jsx";
+import AppLayout from "./components/Layout/AppLayout.jsx";
 
-import Landing from "./pages/Landing";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Links from "./pages/Links";
-import Analytics from "./pages/Analytics";
-import Profile from "./pages/Profile";
+import Landing from "./pages/Landing.jsx";
+import Register from "./pages/Register.jsx";
+import Login from "./pages/Login.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import Links from "./pages/Links.jsx";
+import Analytics from "./pages/Analytics.jsx";
+import Profile from "./pages/Profile.jsx";
 
 function Protected({ children }) {
   return (
